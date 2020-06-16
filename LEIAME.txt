@@ -1,4 +1,4 @@
-O projeto foi feito, em maior parte, conforme o que foi pedido. 
+﻿O projeto foi feito, em maior parte, conforme o que foi pedido. 
 Poucas direções diferentes foram tomadas por questão de usabilidade ou design.
 
 •Conforme o solicitado, foi criado um projeto no padrão MVC, utilizando SqlServer Express para o banco de dados. 
@@ -37,6 +37,9 @@ Menu Tarefa:
 
 Banco de dados:
 •Foram criadas apenas duas tabelas para atender o projeto. o código das tabelas podem ser encontrados no arquivo SQL.txt
+•Foi optado por incluir um sufixo aos nomes das tabelas e suas colunas para melhor identificação.
+•As chaves de cada tabela são autonumeráveis, para melhor usabilidade.
+•Na tabela de tarefas há um "ON DELETE CASCADE" para evitar possíveis exceções.
 
 Observações:
 Também incluí um vídeo do projeto em execução e sua navegação.
